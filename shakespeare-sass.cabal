@@ -18,7 +18,7 @@ cabal-version:       >=1.10
 
 library
   exposed-modules:
-        Text.Shakespeare.SASS
+        Text.Shakespeare.Sass
   default-extensions:
         TemplateHaskell
         QuasiQuotes

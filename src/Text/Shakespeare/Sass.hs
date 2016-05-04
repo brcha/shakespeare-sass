@@ -12,9 +12,9 @@
 --
 -- This file is part of shakespeare-sass
 --
-module Text.Shakespeare.SASS
+module Text.Shakespeare.Sass
     ( wsass'
-    , wfsSASS
+    , wfsSass
     ) where
 
 import Text.Sass
@@ -38,8 +38,8 @@ compileSassFile incPath fileName = do
             error err'
         Right compiled -> return . resultString $ compiled
 
-wfsSASS :: [FilePath] -> WidgetFileSettings
-wfsSASS sassInclude = def { wfsLanguages = \hset -> defaultTemplateLanguages hset ++
+wfsSass :: [FilePath] -> WidgetFileSettings
+wfsSass sassInclude = def { wfsLanguages = \hset -> defaultTemplateLanguages hset ++
     [ TemplateLanguage True  "sass" wsass wsass
     , TemplateLanguage True  "scss" wsass wsass
     ] }
