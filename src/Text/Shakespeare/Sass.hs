@@ -19,7 +19,6 @@ module Text.Shakespeare.Sass
 
 import Text.Sass
 import Language.Haskell.TH
-import qualified Data.Default as DD
 import Yesod.Default.Util (WidgetFileSettings, TemplateLanguage (..)
                           ,defaultTemplateLanguages, wfsLanguages)
 import Yesod.Core
@@ -31,7 +30,7 @@ wsass' incPath fileName = do
 
 compileSassFile :: Maybe [FilePath] -> FilePath -> IO String
 compileSassFile incPath fileName = do
-    result <- compileFile fileName ( DD.def { sassIncludePaths = incPath } )
+    result <- compileFile fileName ( def { sassIncludePaths = incPath } )
     case result of
         Left err -> do
             err' <- errorMessage err
