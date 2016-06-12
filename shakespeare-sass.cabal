@@ -17,8 +17,8 @@ extra-source-files:
 				README.md
 cabal-version:       >=1.10
 source-repository head
-	type:			git
-	location: https://github.com/brcha/shakespeare-sass
+  type:      git
+  location:  https://github.com/brcha/shakespeare-sass
 
 library
   exposed-modules:
