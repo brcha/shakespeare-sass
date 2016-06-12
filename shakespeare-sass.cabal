@@ -4,7 +4,7 @@
 name:                shakespeare-sass
 version:             0.1.0.0
 synopsis:            SASS support for Shakespeare and Yesod
--- description:         
+description:         SASS support for Shakespeare and Yesod
 homepage:            https://github.com/brcha/shakespeare-sass
 license:             MPL-2.0
 license-file:        LICENSE
