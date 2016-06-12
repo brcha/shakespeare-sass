@@ -2,7 +2,7 @@
 -- documentation, see http://haskell.org/cabal/users-guide/
 
 name:                shakespeare-sass
-version:             0.1.0.1
+version:             0.1.0.2
 synopsis:            SASS support for Shakespeare and Yesod
 description:         SASS support for Shakespeare and Yesod
 homepage:            https://github.com/brcha/shakespeare-sass
@@ -17,8 +17,8 @@ extra-source-files:
 				README.md
 cabal-version:       >=1.10
 source-repository head
-	type:			git
-	location: https://github.com/brcha/shakespeare-sass
+  type:      git
+  location:  https://github.com/brcha/shakespeare-sass
 
 library
   exposed-modules:
