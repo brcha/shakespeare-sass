@@ -31,5 +31,5 @@ In case you are using [Keter](https://github.com/snoyberg/keter) for deployment
 (and you should, it's a great tool),
 you should also add directories with your sass templates
 to the `extraFiles:` list in the `config/keter.yaml` file.
-Don't forget to put the `../` prefix, since `keyer.yaml`'s paths are
+Don't forget to put the `../` prefix, since `keter.yaml`'s paths are
 relative to the `config` directory.
