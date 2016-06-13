@@ -1,5 +1,9 @@
 # Shakespeare SASS
 
+[![Build Status](https://travis-ci.org/brcha/shakespeare-sass.svg?branch=master)](https://travis-ci.org/brcha/shakespeare-sass)
+[![Hackage](https://img.shields.io/hackage/v/shakespeare-sass.svg)](http://hackage.haskell.org/package/shakespeare-sass)
+[![Hackage deps](https://img.shields.io/hackage-deps/v/shakespeare-sass.svg)](http://packdeps.haskellers.com/reverse/sshakespeare-sass)
+
 ## About
 
 Shakepeare SASS is a package to enable the usage of [SASS language](http://sass-lang.com)
