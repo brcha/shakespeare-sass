@@ -206,3 +206,13 @@ script:
       ;;
   esac
   set +ex
+
+
+# Deployment to Hackage configuration
+deploy:
+  provider: hackage
+  username: brcha
+  password:
+    secure: zAy/Vsc0HmZRQKIoNu03SxltzWK13bfX9vqfc6/dLy3YyF7L6RIS2qrVih+ymJ/JHnmSkvtlUTxMSLoXI7md1sSDLKvkYZ9SpYzNtBN2hJWXsbc/Iec35cDoqYEYTfh5g9GSAW4JPzlaSONIndc6vKVPF7yqacx66sfwRveEpCWXYI/oh+5ssHLITWRUSHEikQ6EJ5+DQYBVg+V+C5m81OGWLTJhKOhj00dZ2gQMsr8aY8wWZyDqUH/czHyxsshgkXpKTlP2zEu/jAod4WCt3aMYLDzSxKVVcPgEn/m3HqQCazUcWC1TUbUvPb3n4wUzvjqB1xDuzfrFcBb9/IrdBG1mZhKNv0QF2DjQ22L/DisIqm/ZwJwibTjvr2W2xxrUB794En4pnL9U5laS7eqLpmC5ayAEJB1v2Qx3KV1D84bC2cRlgi+MV/5olN0YDLdWEqA2g8OLOSOPMZQdlyYdAnQR9B3lA6o/dPAafRoNSRzwYFuCt8mpMfbFHF6Wpn3oU9PqaRcqBML7qnvD7THIZ78gfuwst/Z8YQ8Y7sp/u1V128HqJB6AJ4j6I0dh3qaJb5k/2jNpWdQIoSz4GsiZArDY+oPD0Id9SITXRvIWHXlAGIT2BlDPU5sFyzRp5k8NpJ2cMCRDsSKGZAQU55srJHzU3bABC9pl/HTytgI8RYg=
+  on:
+    repo: brcha/shakespeare-sass
