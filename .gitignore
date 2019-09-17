@@ -21,6 +21,7 @@ cabal.sandbox.config
 *.eventlog
 .stack-work/
 *.cabal
+*.lock
 
 
 ### Linux ###
