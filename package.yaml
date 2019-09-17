@@ -1,5 +1,5 @@
 name: shakespeare-sass
-version: '0.1.3'
+version: '0.1.4'
 synopsis: SASS support for Shakespeare and Yesod
 description: SASS support for Shakespeare and Yesod
 category: Web
@@ -13,12 +13,12 @@ default-extensions:
 - TemplateHaskell
 - QuasiQuotes
 dependencies:
-- base >=4 && <5
+- base >= 4 && < 5
 - template-haskell
-- yesod >=1.4.1 && <1.5.0
-- yesod-core >=1.4.6 && <1.5.0
-- shakespeare >=2.0 && <2.1
-- hsass >=0.2.0 && <0.5.0
+- yesod >= 1.4.1 && <= 1.6.0
+- yesod-core >= 1.4.6 && <= 1.6.14
+- shakespeare >= 2.0 && < 2.1
+- hsass >= 0.2.0 && <= 0.8.0
 library:
   source-dirs: src
   exposed-modules:
