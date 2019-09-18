@@ -1,5 +1,5 @@
 name: shakespeare-sass
-version: '0.1.4'
+version: '0.1.4.1'
 synopsis: SASS support for Shakespeare and Yesod
 description: SASS support for Shakespeare and Yesod
 category: Web
